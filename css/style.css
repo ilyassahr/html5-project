@@ -70,6 +70,18 @@ main article:hover {
 background-color: rgb(255,255,255);
 }
 
+main a1 {
+margin: 20px;
+font-family: Impact;
+font-size: 25pt;
+display: inline-block;
+width: 300px;
+}
+
+main a1:hover {
+background-color: rgb(255,255,255);
+}
+
 footer {
 background-color: #cccccc;
 }
