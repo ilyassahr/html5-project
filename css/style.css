@@ -15,6 +15,18 @@ width:900px;
 header h1 {
 padding: 10px;
 color: rgb(255,255,255);
+font-family: Impact;
+font-weight: normal;
+}
+
+header h2 {
+float: right;
+width: 50px;
+height: 50px;
+}
+
+header h2:hover {
+background-color: rgb(255, 255, 255);
 }
 
 #wrapper {
@@ -40,4 +52,29 @@ text-align: center;
 
 nav a:hover {
 background-color: rgb(255,255,255);
+}
+
+main a {
+margin: 10px 20px 40px 20px;
+}
+
+main article {
+margin: 20px;
+font-family: Impact;
+font-size: 25pt;
+display: inline-block;
+text-align: center;
+}
+
+main article:hover {
+background-color: rgb(255,255,255);
+}
+
+footer {
+background-color: #cccccc;
+}
+
+footer article {
+font-family: Tahoma;
+padding: 20px;
 }
