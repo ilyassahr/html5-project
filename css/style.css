@@ -31,6 +31,7 @@ background-color: rgb(255, 255, 255);
 
 #wrapper {
 width: 900px;
+background-color: #3375e0;
 }
 
 nav {
@@ -58,7 +59,14 @@ main a {
 margin: 10px 20px 40px 20px;
 }
 
-main article {
+main article img{
+float: left;
+}
+main b {
+padding: 20px;
+}
+
+main p {
 margin: 20px;
 font-family: Impact;
 font-size: 25pt;
@@ -66,7 +74,11 @@ display: inline-block;
 text-align: center;
 }
 
-main article:hover {
+main {
+height: 1000px;
+}
+
+main p:hover {
 background-color: rgb(255,255,255);
 }
 
@@ -84,6 +96,7 @@ background-color: rgb(255,255,255);
 
 footer {
 background-color: #999999;
+clear: both;
 }
 
 footer article {
